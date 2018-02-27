@@ -3,9 +3,26 @@ You need to initialize a repository to begin saving new elements to the file.
 
 You need to initialize because Git will not make the first commit for you.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is the area where the commit is not finalized into the repository.
 It's one further step than the working directory. It helps you select which files
 you want to add to a commit- and you can edit this before it is finalized as a true
 commit to the repository.
+
+# How can you use the staging area to make sure you have one commit per logical change?
+If there are too many items in the staging area, it will be cluttered quickly. Having
+a small staging area will make sure that you commit one logical change at a time.
+
+# What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+
+Branches are helpful when you want to play with different modes, changes you're
+not sure about, and different options for the same code without modifying the original
+code base.
+
+Master code = never fails, production worthy
+Experimental branches = currently not working, but you can share with public
+
+# How do the diagrams help you visualize the branch structure?
+It is easier to see where the branches split off and what history they take with them.
