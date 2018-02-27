@@ -1,0 +1,14 @@
+How can you use the commands git log and git diff to view the history of files?
+
+git log will give you a chronological list (from most to least recent!!) of changes
+to the file
+
+git diff will give you the differences (what has been added or subtracted) between the
+most current file and earlier version
+
+ex: git diff earlier-file current-file
+
+# Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git to start saving my projects and showing potential employers
+my work
