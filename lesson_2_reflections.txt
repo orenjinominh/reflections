@@ -2,3 +2,10 @@
 You need to initialize a repository to begin saving new elements to the file.
 
 You need to initialize because Git will not make the first commit for you.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is the area where the commit is not finalized into the repository.
+It's one further step than the working directory. It helps you select which files
+you want to add to a commit- and you can edit this before it is finalized as a true
+commit to the repository.
