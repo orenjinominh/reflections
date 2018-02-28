@@ -26,3 +26,10 @@ Experimental branches = currently not working, but you can share with public
 
 # How do the diagrams help you visualize the branch structure?
 It is easier to see where the branches split off and what history they take with them.
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git merging frequently may be good for projects where you want to integrate
+experimentations/ two different functions in the same body of code
+often, but it's a con if the code base is drastically different and you have 2 code
+samples for the same function- that's when manual merging comes in handy.
