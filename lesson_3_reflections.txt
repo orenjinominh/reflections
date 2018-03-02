@@ -1,7 +1,27 @@
 # When would you want to use a remote repository rather than keeping all your work local?
 
-You may want to use a remote repository when there are multiple users working on the same project, or when you're working on the same project but on a different computer. 
+You may want to use a remote repository when there are multiple users working on
+the same project, or when you're working on the same project but on a different computer.
 
-# Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+# Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
 
-You may not want Git to update your HEAD with the latest changes from the remote server and integrate with your current working repo. I'm theorizing that you may sometimes be working on something that is completely affected by an automatic Git pull action that changes your code on the local repo, and it's better to review what changes have been made to the remote repo first before pulling it down to your local repo.
+You may not want Git to update your HEAD with the latest changes from the remote
+server and integrate with your current working repo. I'm theorizing that you may
+sometimes be working on something that is completely affected by an automatic
+Git pull action that changes your code on the local repo, and it's better to
+review what changes have been made to the remote repo first before pulling it
+down to your local repo.
+
+# Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+Forks make a copy of a Github repo onto your own Github account. Clones copy the repo
+to your local computer/working station. Branches are different versions of the master (main)
+code so you can experiment with different versions, code changes, etc.
+
+Forking allows you to give credit to the original repo's maker, and also simplifies the steps of
+cloning the repo into your local computer, creating a Githut repo, pushing your local
+commits and edits to the new repo, etc. You can clone your fork and work on different
+versions of your fork, and push it back to your fork without disturbing the original
+author's repo. 
