@@ -30,4 +30,14 @@ author's repo.
 
 This is useful when you want to work offline (say, you're going somewhere without
 internet connection) but you still want the latest copy of the remote repository to
-work with within your local computer.) 
+work with within your local computer.)
+
+# How would you collaborate without using Git or GitHub? What would be easier,
+ and what would be harder?
+
+ You would probably have to save copies of the same files in time, somehow compare
+ the changes between each saved version of the copies between your local save and
+ the other people's saves, perhaps save smaller files of experimental code, and send that
+ file around to other people's computers for review before they add it to the "master"
+ code file that is proven to work. It would be easier to move files around (perhaps
+ the same effort, tbh) but harder to keep track of huge changes across multiple files. 
