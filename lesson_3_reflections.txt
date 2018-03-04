@@ -24,4 +24,10 @@ Forking allows you to give credit to the original repo's maker, and also simplif
 cloning the repo into your local computer, creating a Githut repo, pushing your local
 commits and edits to the new repo, etc. You can clone your fork and work on different
 versions of your fork, and push it back to your fork without disturbing the original
-author's repo. 
+author's repo.
+
+#What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This is useful when you want to work offline (say, you're going somewhere without
+internet connection) but you still want the latest copy of the remote repository to
+work with within your local computer.) 
